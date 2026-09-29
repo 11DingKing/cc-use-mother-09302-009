@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "校园场地容量编排",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "场地管理员",
+    "活动组织者",
+    "安全负责人"
+  ],
+  "states": [
+    "申请",
+    "评估",
+    "暂占",
+    "确认",
+    "释放"
+  ],
+  "invariants": [
+    "共享容量",
+    "缓冲时间",
+    "时区边界",
+    "冲突解释"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-009-A",
+      "actor": "场地管理员",
+      "state": "申请"
+    },
+    {
+      "case_id": "09302-009-B",
+      "actor": "安全负责人",
+      "state": "评估"
+    }
+  ],
+  "tags": [
+    "venue-capacity",
+    "constraint-scheduling"
+  ]
+}
